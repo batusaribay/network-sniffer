@@ -1,6 +1,6 @@
 # network-sniffer
 
-TUI network packet sniffer.
+TUI network packet sniffer
 
 ![Screenshot](assets/Screenshot.png)
 
