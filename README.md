@@ -13,6 +13,7 @@ over SSH, learning how protocols are actually laid out on the wire, or just
 watching what your own traffic looks like without leaving the shell.
 
 ## How it works
+
 1. Scapy's `AsyncSniffer` opens a raw socket on the selected interface (or
    all interfaces) and captures frames matching the optional BPF filter, in
    a background thread so the UI never blocks, including while waiting for
@@ -30,8 +31,8 @@ watching what your own traffic looks like without leaving the shell.
 5. Protocol and byte counters update live as packets arrive.
 
 ## Installation
-Requirements: Python 3.11+, root/administrator privileges (raw sockets need
-them on every OS), and [`uv`](https://docs.astral.sh/uv/).
+
+Requirements: Python 3.11+, root/administrator privileges, and [`uv`](https://docs.astral.sh/uv/).
 
 Linux/macOS also need `libpcap` for BPF filters, usually already installed;
 otherwise `sudo dnf install libpcap` (Fedora) or `sudo apt install libpcap0.8`
@@ -52,7 +53,9 @@ sudo $(which network-sniffer)
 ```
 
 ## Disclaimer
+
 For educational purposes and authorized security testing only.
 
 ## License
+
 This project is licensed under the [MIT License](LICENSE).
