@@ -1,6 +1,6 @@
 # network-sniffer
 
-TUI network packet sniffer
+TUI network packet sniffer.
 
 ![Screenshot](assets/Screenshot.png)
 
@@ -32,7 +32,7 @@ watching what your own traffic looks like without leaving the shell.
 
 ## Installation
 
-Requirements: Python 3.11+, root/administrator privileges, and [`uv`](https://docs.astral.sh/uv/).
+Requirements: [`uv`](https://docs.astral.sh/uv/) and root/administrator privileges.
 
 Linux/macOS also need `libpcap` for BPF filters, usually already installed;
 otherwise `sudo dnf install libpcap` (Fedora) or `sudo apt install libpcap0.8`
