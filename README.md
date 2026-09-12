@@ -6,11 +6,7 @@ TUI network packet sniffer.
 
 ## Why
 
-Gives you Wireshark-grade packet inspection (live capture, full per-layer
-dissection, BPF filtering, pcap export) from a single terminal window,
-without a GUI or a commercial product. Useful for troubleshooting a machine
-over SSH, learning how protocols are actually laid out on the wire, or just
-watching what your own traffic looks like without leaving the shell.
+Provides live packet capture, per-layer dissection, BPF filtering, and pcap export. Useful for troubleshooting over SSH, learning how protocols are structured on the wire, or inspecting your own traffic.
 
 ## How it works
 
