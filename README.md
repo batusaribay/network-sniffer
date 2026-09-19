@@ -38,7 +38,7 @@ Windows needs [Npcap](https://npcap.com/) with WinPcap
 Compatibility Mode enabled.
 
 ```bash
-uv tool install git+https://github.com/p4p2r0/network-sniffer
+uv tool install git+https://github.com/batu-saribay/network-sniffer
 ```
 
 Capture needs elevated privileges. `sudo` resets `PATH`, so give it the full
